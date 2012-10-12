@@ -1,0 +1,30 @@
+
+
+1. 
+我的emacs配置文件里用了C-, A-, M-, H-, s-这4种模式键,
+分别表示: Ctrl, Alt, Meta, Hyper, super,
+在默认情况下, Ctrl键是有的, Meta映射到Alt上, Alt, Hyper, super没有映射.
+如果我们完全解放这5个快捷键, 我们就可以得到大量的新快捷键了,简直是用也用不完啊.
+
+我通过.Xmodmap把Hyper映射到CapsLock上,把super映射到win上.
+							 
+2. 
+我们都知道,即便我们不配置emacs, emacs启动时也有默认的字体和显示颜色的.
+如果我们把字体和颜色比做衣服的话,也就是emacs出来时,不是祼体,而是穿衣服的.
+但是有些无良的同学,喜欢把emacs的衣服脱去,再给换上新的衣服.这是非常不好的做法,
+尤其大流氓color-theme,总喜欢扒emacs衣服!!!
+我表示抗议 (不过我那里也有两个emacs的着装文件的,只是我没有打开~)
+
+.Xresources里面所写的,就是emacs的默认着装.
+Emacs.toolBar:              off			不要toolbar
+Emacs.menuBar:              off			不要menubar
+Emacs.verticalScrollBars:   off			不要滚动条
+Emacs.cursorColor:          #A7A7A7			定义光标颜色
+Emacs.foreground:           #F8F8F8			定义前景色
+Emacs.background:           #0C1021			定义背景色
+Emacs.Font:                 monaco-11		默认字体为manoco
+
+manoco是很赞的一个字体,苹果机上的.没有这个字体的同时,也可以用consolas的.
+
+
+

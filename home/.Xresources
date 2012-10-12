@@ -1,0 +1,8 @@
+Emacs.toolBar:              off
+Emacs.menuBar:              off
+Emacs.verticalScrollBars:   off
+Emacs.cursorColor:          #A7A7A7
+Emacs.foreground:           #F8F8F8
+Emacs.background:           #0C1021
+Emacs.Font:                 monaco-11
+
